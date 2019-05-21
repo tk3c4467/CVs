@@ -1,0 +1,247 @@
+body{
+font-weight: bold;
+font-family: "微軟正黑體";
+background-color:#99A984 ;
+}
+.all{
+background-color: #997748;
+width:1050px;
+height: 1500px;
+padding-top: 1.9%;
+}
+.top h1{
+padding-top:3%;
+float: left;
+}
+.name{
+	border-bottom: 4px solid white;
+}
+.top .school{
+	float:left;
+	padding-top: 8%;
+}
+.top .word{
+	float:left;
+
+}
+.bor{
+border: 4px solid white;
+width:1000px;
+height:1440px;
+
+}
+.top{
+	border-bottom: 4px solid white;
+	margin-left:2%;
+	color:#f6ea8c; 
+	height: 17%;
+	margin-right:2%; 
+}
+#skill{
+	color:#f6ea8c;
+	border-bottom:4px solid white; 
+	width:30%;
+
+}
+.listSkill{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.listSkill li{
+  width: 25%;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.circle{
+	font-family: "微軟正黑體";
+	margin-top:20px;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255,0.3);
+}
+.circle::after{
+  content: "";
+  display: block;
+  background-color: #997748;
+  width: calc(90% - 20px);
+  height: calc(90% - 20px);
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%)
+}
+.p90,.p180,.p270,.p360{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  right:0;
+  top: 0;
+  background-color:#E3E36A;
+}
+.p180{
+  top: 50%;
+}
+.p270{
+  right: 0;
+  top: 50%;
+}
+.p360{
+  right: 0;
+  top: 50px;
+}
+.skill_name{
+	font-weight: bold;
+	color:#f6ea8c;
+}
+.lows{
+	border-bottom: 4px solid white;
+	margin-left:2%;
+	color:#f6ea8c; 
+	height: 18%;
+	margin-right:2%; 
+}
+ #experience{
+	margin-top:2%; 
+	border-bottom: 4px solid white;
+	width: 25%;
+
+}
+.social img{
+	float:left;
+	width: 80px;
+	height:80px;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+#highschool {
+  list-style: none;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+#highschool li::before {
+  content: "";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 8em;
+  margin-left: -10em;
+}
+#universe {
+  list-style: none;
+   font-weight: bold;
+  font-size:20px;
+}
+
+#universe li::before {
+  content: "";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 8em;
+  margin-left: -10em;
+}
+.experience{
+	border-bottom: 4px solid white;
+}
+.contact{
+	border-bottom: 4px solid white;
+	width: 15%;
+}
+.btn{
+  border: 2px solid #E0C33F!important;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px!important;
+  font-family: 'Righteous', cursive;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+.btn1{
+  color:#99A984;
+}
+.btn1:hover{
+  color: #fff;
+}
+
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #E0C33F;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn1::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.btn1:hover::before{
+  height: 180%;
+}
+
+#contact {
+  list-style: none;
+  font-weight: bold;
+  font-size:20px;
+
+}
+
+#contact li::before {
+  content: "";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 8em;
+  margin-left: -10em;
+}
+.icon{
+	width: 40px;
+	height:40px;
+	transition:.4s; 
+}
+.icon:hover{
+	width: 60px;
+	height:60px;
+}
